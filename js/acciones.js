@@ -13,10 +13,10 @@ $(document).ready(function (e){
 	document.addEventListener("resume",function(){
 		escribehistoria ('la app se reinicio');
 	},false);//resume
-	document.addEventListener("pause",function(){
+	document.addEventListener("online",function(){
 		escribehistoria ('la app se conecto a la red');
 	},false);//se conecto
-	document.addEventListener("pause",function(){
+	document.addEventListener("offline",function(){
 		escribehistoria ('la app se desconecto de la red');
 	},false);//se desconecto
 	
