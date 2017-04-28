@@ -25,6 +25,6 @@ $(document).ready(function (e){
 });//document
 
 function escribehistoria(accion){
-	$('#eHistoria').append('<li>'+'<li>');
+	$('#eHistoria').append('<li>'+accion+'<li>');
 }
 	
